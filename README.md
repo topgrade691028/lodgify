@@ -1,12 +1,26 @@
-# Getting Started with Create React App
+# Lodgify Grouped Tasks
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+Welcome to the Lodgify Grouped Tasks project! This project is a small widget designed to help users track their progress in completing tasks within different groups. The widget displays a list of task groups, each containing individual tasks that can be checked off as completed. As tasks are checked off, the progress bar dynamically updates to reflect the overall completion percentage.
+
+## Table of Contents
+
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Features](#features)
+4. [Testing](#testing)
+5. [Accessibility](#accessibility)
+6. [Technologies Used](#technologies-used)
+7. [Acknowledgements](#acknowledgements)
+
+### Installation
+
+To run this project locally, follow these steps:
 
 In the project directory, you can run:
 
-### `yarn start`
+`yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -14,12 +28,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `yarn test`
+`yarn test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+`yarn build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -29,42 +43,47 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The Lodgify Grouped Tasks widget is simple and intuitive to use:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Upon loading the application, the widget will fetch data from an external API to populate the task groups and their associated tasks.
+- Each task group can be expanded or collapsed by clicking on the group header.
+- Individual tasks can be marked as completed by checking the corresponding checkbox.
+- The progress bar at the top of the widget dynamically updates to reflect the overall completion percentage of all tasks.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Features
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Task Grouping**: Tasks are organized into groups, allowing users to focus on specific areas of completion.
+- **Interactive Interface**: Users can interact with the widget by expanding/collapsing task groups and checking off individual tasks.
+- **Dynamic Progress Tracking**: The progress bar updates in real-time as tasks are completed, providing users with immediate feedback on their progress.
+- **Accessibility**: The application is designed with accessibility in mind, ensuring that all users, including those with disabilities, can navigate and interact with the widget effectively.
 
-## Learn More
+### Testing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The project includes a comprehensive suite of unit tests to ensure the reliability and correctness of the code. Testing is conducted using the React Testing Library and Jest framework. The tests cover various scenarios, including data fetching, user interaction, and component rendering.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Accessibility
 
-### Code Splitting
+Accessibility is a top priority in this project, and efforts have been made to ensure that the widget is usable by all individuals, including those with disabilities. Key accessibility features include:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Semantic HTML**: Proper use of semantic HTML elements to provide meaningful structure and navigation.
+- **Keyboard Navigation**: All interactive elements are accessible via keyboard navigation, ensuring that users who cannot use a mouse can still interact with the widget.
+- **Screen Reader Support**: The widget includes appropriate ARIA attributes and labels to facilitate screen reader compatibility and enhance the user experience for visually impaired users.
 
-### Analyzing the Bundle Size
+### Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- React: JavaScript library for building user interfaces.
+- Material-UI: React UI framework for building responsive and accessible web applications.
+- Axios: Promise-based HTTP client for making API requests.
+- Jest: JavaScript testing framework for unit testing React components.
+- React Testing Library: Testing utilities for React applications.
 
-### Making a Progressive Web App
+### Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project was developed as part of the Lodgify Frontend Technical Challenge. Special thanks to the Lodgify recruitment team for providing the opportunity to showcase my technical skills and creativity.
 
-### Advanced Configuration
+For any inquiries or feedback, please contact:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- ### Ivan Bushev
+- ### seasoneddev007@gmail.com
